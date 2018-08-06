@@ -1,0 +1,20 @@
+﻿.header {
+    background-color: brown;
+    justify-content: center;
+    display: flex;
+}
+
+.image {
+    background-color: lightgreen;
+    background-image: url(onepiece.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    display: flex;
+}
+
+.ten {
+    background-color: beige;
+}
