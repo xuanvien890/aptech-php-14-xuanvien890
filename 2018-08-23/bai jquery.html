@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>jquery</title>
+  </head>
+
+<body>
+   <a><img id="js-img" src="pic_bulbon.gif"></a> 
+    <button>Bat/tat</button>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $("button").click(function(){
+            $("a").toggle("pic_bulboff.gif");
+        });
+    });
+</script>
+</body>
+
+</html>
